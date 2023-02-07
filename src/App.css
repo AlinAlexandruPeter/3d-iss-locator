@@ -1,0 +1,200 @@
+@font-face {
+  font-family: Stacker;
+  src: url(./assets/fonts/Stacker.ttf);
+}
+
+@font-face {
+  font-family: Neon;
+  src: url(./assets/fonts/Neon80s.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Neon;
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #0594d7, 0 0 42px #0594d7,
+    0 0 82px #0594d7, 0 0 92px #0594d7, 0 0 102px #0594d7, 0 0 151px #0594d7;
+}
+
+.loading h1 {
+  text-shadow: 0 0 7px #fff;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(./bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+header {
+  width: 90%;
+  height: 9vw;
+  margin-inline: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+
+header button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+header button:hover {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.header img {
+  width: 150px;
+}
+
+.header h1 {
+  font-family: Stacker;
+  font-size: 3rem;
+  color: white;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: unset;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background: #09192f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.85rem;
+  text-shadow: none !important;
+  z-index: 10;
+  animation-duration: 1s;
+}
+
+.loading img {
+  width: 250px;
+  transform: translateY(-25%);
+}
+
+.loading h1 {
+  transform: translateY(-120%);
+}
+
+.camera {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.camera section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 5% 15%;
+  border-radius: 5%;
+  box-shadow: 0 0 0.1vw 0.4vw #e0f7fa, 0 0 0.4vw 0.6vw #00e5ff,
+    0 0 1vw 0.4vw #26c6da, inset 0 0 0.1vw 0.4vw #e0f7fa,
+    inset 0 0 0.4vw 0.6vw #00e5ff, inset 0 0 1vw 0.4vw #26c6da;
+}
+
+.camera section h1 {
+  margin-bottom: 20px;
+}
+
+.camera section a {
+  text-decoration: none;
+}
+
+.camera section a:hover {
+  text-decoration: underline;
+}
+
+.camera section i {
+  font-size: 1.75rem;
+}
+
+.camera section button {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  appearance: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.camera button i {
+  font-size: 3rem;
+}
+
+.preloader {
+  background-image: url(./assets/loading.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 300px;
+}
+
+.no-display {
+  display: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2.5rem;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  background-color: rgba(10, 25, 47, 0.4);
+  backdrop-filter: blur(2px);
+}
+
+footer a {
+  margin-left: 10px;
+  cursor: pointer;
+  z-index: unset;
+}
