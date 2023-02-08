@@ -47,7 +47,9 @@ controls.addEventListener("change", () => {
   } catch (e) {}
 });
 
-renderer.setSize(window.innerWidth, innerWidth / 2.08);
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? 2 : 1;
+
+renderer.setSize(isMobile * window.innerWidth, isMobile * innerWidth / 2.08);
 renderer.setPixelRatio(window.devicePixelRatio ? window.devicePixelRatio : 1);
 renderer.autoClear = false;
 renderer.setClearColor(0x000000, 0.0);
