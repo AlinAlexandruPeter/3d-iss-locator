@@ -230,7 +230,7 @@ footer a {
   canvas {
     width: 100vw !important;
     aspect-ratio: 2.08 / 1 !important;
-    transform: scale(2.5)
+    transform: scaleY(2) scaleX(2.2)
   }
 
   .loading image {
