@@ -49,7 +49,7 @@ controls.addEventListener("change", () => {
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? 3 : 1;
 
-renderer.setSize(isMobile * window.innerWidth, 3 * window.innerHeight / 4);
+renderer.setSize(isMobile * window.innerWidth, window.innerHeight / 2);
 renderer.setPixelRatio(window.devicePixelRatio ? window.devicePixelRatio : 1);
 renderer.autoClear = false;
 renderer.setClearColor(0x000000, 0.0);
@@ -61,7 +61,7 @@ scene.add(ambientLight);
 
 const earthLight = new THREE.PointLight(0xff0000, 3, 100);
 earthLight.position.set(0, 0, -100);
-scene.add(earthLight);
+scene.add(earthLight); uit
 
 var lights = [];
 for (let i = 0; i <= 5; i++) {
