@@ -203,7 +203,7 @@ footer a {
   z-index: unset;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   header img {
     width: 50px;
   }
