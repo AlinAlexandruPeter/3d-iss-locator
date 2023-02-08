@@ -231,4 +231,13 @@ footer a {
     width: 100vw !important;
     aspect-ratio: 2.08 / 1 !important;
   }
+
+  .loading image,
+  .loading h1 {
+    transform: none !important;
+  }
+
+  .loading h1 {
+    font-size: 1.2rem !important;
+  }
 }
