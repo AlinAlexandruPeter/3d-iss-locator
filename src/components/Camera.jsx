@@ -23,7 +23,7 @@ export default function Camera(props) {
   };
 
   return (
-    <div className="camera animate__animated animate__fadeInDown animate__fast">
+    <div className="camera animate__animated animate__fadeInDown animate__faster">
       <section>
         <h1>
           <a href="https://youtube.com/live/86YLFOog4GM?si=EnSIkaIECMiOmarE">
