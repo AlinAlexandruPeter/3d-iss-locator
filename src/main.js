@@ -47,7 +47,7 @@ controls.addEventListener("change", () => {
   } catch (e) {}
 });
 
-renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setSize(window.innerWidth, innerWidth / 2.08);
 renderer.setPixelRatio(window.devicePixelRatio ? window.devicePixelRatio : 1);
 renderer.autoClear = false;
 renderer.setClearColor(0x000000, 0.0);
