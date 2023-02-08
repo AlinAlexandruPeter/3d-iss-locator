@@ -8,14 +8,10 @@ import axios from "axios";
 let lat, long;
 const getCoords = () => {
   setInterval(async () => {
-    try {
-      const data = await axios({
-        method: "get",
-        url: "https://api.wheretheiss.at/v1/satellites/25544",
-      });
-    } catch (e) {
-      location.reload();
-    }
+    const data = await axios({
+      method: "get",
+      url: "https://api.wheretheiss.at/v1/satellites/25544",
+    });
 
     lat = parseFloat(data.data.latitude);
     long = parseFloat(data.data.longitude);
