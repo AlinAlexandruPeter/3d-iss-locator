@@ -7,13 +7,14 @@ export default function Camera(props) {
   const { handleClick } = props;
   const [loading, setLoading] = useState(true);
 
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
   const liveISSURL = "86YLFOog4GM";
   let options = {
-    height: "300px",
-    width: "500px",
+    height: isMobile ? "240px" : "300px",
+    width: isMobile ? "450px" : "500px",
     playerVars: {
       autoplay: 1,
-      alowFullScreen: 0,
     },
   };
 
