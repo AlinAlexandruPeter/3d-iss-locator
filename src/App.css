@@ -230,6 +230,7 @@ footer a {
   canvas {
     width: 100vw !important;
     aspect-ratio: 2.08 / 1 !important;
+    transform: scale(1.75)
   }
 
   .loading image {
@@ -243,5 +244,19 @@ footer a {
 
   .camera section {
     padding: 0 15%;
+    width 95vw;
+    height: 60vh;
+  }
+
+  .camera h1 {
+    font-size: 1.5rem;
+  }
+
+  .camera section i {
+    font-size: 1rem;
+  }
+
+  .camera button i {
+    font-size: 2rem;
   }
 }
