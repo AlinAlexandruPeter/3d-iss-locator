@@ -34,6 +34,10 @@ body {
   position: relative;
 }
 
+#root {
+  overflow: hidden;
+}
+
 header {
   width: 90%;
   height: 9vw;
@@ -197,4 +201,23 @@ footer a {
   margin-left: 10px;
   cursor: pointer;
   z-index: unset;
+}
+
+@media screen and (max-width: 500px) {
+  header img {
+    width: 50px;
+  }
+  
+  header h1 {
+    font-size: 1.85rem;
+  }
+
+  header button {
+    font-size: 1rem;
+  }
+
+  canvas {
+    width: 100vw;
+    aspect-ratio: 2.08 / 1;
+  }
 }
