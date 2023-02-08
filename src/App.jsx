@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   const [cameraOn, setCameraOn] = useState(false);
   const handleClick = () => {
+    document.querySelector(".camera").classList.add("animate__fadeOutUp");
     setCameraOn((prevCameraOn) => !prevCameraOn);
   };
 
