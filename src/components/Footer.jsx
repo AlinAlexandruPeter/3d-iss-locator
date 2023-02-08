@@ -9,16 +9,16 @@ export default function Footer() {
       </p>
       <div>
         <a
-          href="https://github.com/AlinAlexandruPeter/3d-iss-tracker"
-          target="_blank"
-        >
-          <i className="fa-brands fa-github"></i>
-        </a>
-        <a
           href="https://wheretheiss.at/w/developer"
           target="_blank"
         >
           API
+        </a>
+        <a
+          href="https://github.com/AlinAlexandruPeter/3d-iss-tracker"
+          target="_blank"
+        >
+          <i className="fa-brands fa-github"></i>
         </a>
       </div>
     </footer>
