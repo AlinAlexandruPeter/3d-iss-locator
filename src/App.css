@@ -204,11 +204,15 @@ footer a {
 }
 
 @media (max-width: 500px) {
+  #root {
+    width: 95 !important
+  }
+
   header {
-    justify-content: soace-around;
-    width: 100%;
-    margin: 0;
-    height: 100px;
+    justify-content: soace-around !important;
+    width: 100% !important;
+    margin: 0 !important;
+    height: 100px !important;
   }
 
   header img {
@@ -216,15 +220,15 @@ footer a {
   }
   
   header h1 {
-    font-size: 1.75rem;
+    font-size: 1.75rem !important;
   }
 
   header button {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   canvas {
-    width: 100vw;
-    aspect-ratio: 2.08 / 1;
+    width: 100vw !important;
+    aspect-ratio: 2.08 / 1 !important;
   }
 }
