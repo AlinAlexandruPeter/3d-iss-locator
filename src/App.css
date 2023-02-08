@@ -237,7 +237,7 @@ footer a {
   }
 
   .loading h1 {
-    font-size: 1.5rem !important;
-    transform: translateY(-7.5vh)
+    font-size: 1.6rem !important;
+    transform: translateY(-10vh)
   }
 }
