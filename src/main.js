@@ -61,7 +61,7 @@ scene.add(ambientLight);
 
 const earthLight = new THREE.PointLight(0xff0000, 3, 100);
 earthLight.position.set(0, 0, -100);
-scene.add(earthLight); uit
+scene.add(earthLight);
 
 var lights = [];
 for (let i = 0; i <= 5; i++) {
