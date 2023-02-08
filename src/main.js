@@ -47,10 +47,6 @@ controls.addEventListener("change", () => {
   } catch (e) {}
 });
 
-const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-if (isMobile)
-  [width, height] = [height, width];
-
 renderer.setSize(window.innerWidth, window.innerWidth / 2);
 renderer.setPixelRatio(window.devicePixelRatio ? window.devicePixelRatio : 1);
 renderer.autoClear = false;
