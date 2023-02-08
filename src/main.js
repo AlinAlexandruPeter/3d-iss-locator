@@ -107,7 +107,7 @@ const animate = () => {
 
   const deviation = lat <= 0 ? 81 : 100;
   const phi = THREE.MathUtils.degToRad(lat - deviation);
-  const theta = THREE.MathUtils.degToRad(long + 24);
+  const theta = THREE.MathUtils.degToRad(long + 22);
   issMesh.position.setFromSphericalCoords(700, phi, theta);
 
   render();
