@@ -5,7 +5,7 @@ export default function Loading() {
   return (
     <div className="loading animate__animated">
       <img src={loadingIllustration} alt="Loading..." />
-      <h1>getting our satelites ready...</h1>
+      <h1>getting our telescopes ready...</h1>
     </div>
   );
 }
