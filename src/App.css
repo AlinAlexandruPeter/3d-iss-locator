@@ -243,20 +243,20 @@ footer a {
   }
 
   .camera section {
-    padding: 0 15%;
-    width 95vw;
-    height: 60vh;
+    padding: 0 15% !important;
+    width: 95vw !important;
+    height: 60vh !important;
   }
 
   .camera h1 {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
 
   .camera section i {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   .camera button i {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 }
