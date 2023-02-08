@@ -1,6 +1,7 @@
 import { useState } from "react";
 import YouTube from "react-youtube";
 import VideoLoading from "./VideoLoading";
+import "animate.css";
 
 export default function Camera(props) {
   const { handleClick } = props;
@@ -22,7 +23,7 @@ export default function Camera(props) {
   };
 
   return (
-    <div className="camera">
+    <div className="camera animate__animated animate__fadeInDown">
       <section>
         <h1>
           <a href="https://youtube.com/live/86YLFOog4GM?si=EnSIkaIECMiOmarE">
