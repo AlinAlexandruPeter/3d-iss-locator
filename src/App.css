@@ -232,12 +232,12 @@ footer a {
     aspect-ratio: 2.08 / 1 !important;
   }
 
-  .loading image,
-  .loading h1 {
+  .loading image {
     transform: none !important;
   }
 
   .loading h1 {
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
+    transform: translateY(-7.5vh)
   }
 }
