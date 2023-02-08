@@ -49,7 +49,7 @@ controls.addEventListener("change", () => {
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? 3 : 1;
 
-renderer.setSize(isMobile * window.innerWidth, window.innerHeight / 2);
+renderer.setSize(isMobile * window.innerWidth, window.innerWidth / 2);
 renderer.setPixelRatio(window.devicePixelRatio ? window.devicePixelRatio : 1);
 renderer.autoClear = false;
 renderer.setClearColor(0x000000, 0.0);
