@@ -12,7 +12,7 @@ export default function Camera(props) {
   const liveISSURL = "86YLFOog4GM";
   let options = {
     height: isMobile ? "240px" : "300px",
-    width: isMobile ? "450px" : "500px",
+    width: isMobile ? "350px" : "500px",
     playerVars: {
       autoplay: 1,
     },
