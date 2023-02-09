@@ -47,7 +47,7 @@ controls.addEventListener("change", () => {
   } catch (e) {}
 });
 
-renderer.setSize(window.innerWidth, window.innerWidth / 2);
+renderer.setSize(2 * window.innerWidth, 2 * window.innerWidth / 2.08);
 renderer.setPixelRatio(window.devicePixelRatio ? window.devicePixelRatio : 1);
 renderer.autoClear = false;
 renderer.setClearColor(0x000000, 0.0);
@@ -103,6 +103,7 @@ manager.onLoad = () => {
 
 const animate = () => {
   requestAnimationFrame(animate);
+  camera.lookAt(0, 0, 0);
   earthMesh.rotation.y += 0.0015;
 
   const deviation = lat <= 0 ? 81 : 100;
