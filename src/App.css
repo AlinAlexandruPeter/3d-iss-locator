@@ -125,7 +125,8 @@ canvas {
   border: none;
   background: transparent;
   padding-inline: 1ch;
-  text-decoration: underline;
+  text-decoration: underline;z
+  cursor: pointer;
 }
 
 .camera {
