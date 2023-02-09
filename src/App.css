@@ -206,6 +206,7 @@ footer a {
 @media all and (max-width: 500px) {
   #root {
     height: 90vh !important;
+    width: 99vw !important
     overflow: hidden !important;
   }
 
@@ -231,7 +232,7 @@ footer a {
   canvas {
     width: 100vw !important;
     aspect-ratio: 2.08 / 1 !important;
-    /* transform: scaleY(2) scaleX(2.2) */
+    transform: scaleY(2) scaleX(2.5)
   }
 
   .loading image {
