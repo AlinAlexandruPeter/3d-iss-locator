@@ -123,7 +123,8 @@ canvas {
   appearance: none;
   outline: none;
   border: none;
-  padding-inline: 10px;
+  background: transparent;
+  padding-inline: 1ch;
   text-decoration: underline;
 }
 
