@@ -114,7 +114,7 @@ canvas {
 
 .loading p {
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   font-size: .8rem;
   text-shadow: none !important;
 }
@@ -258,6 +258,10 @@ footer a {
   .loading h1 {
     font-size: 1.6rem !important;
     transform: translateY(-10vh)
+  }
+
+  .loading p {
+    bottom: 20% !important;
   }
 
   .camera section {
