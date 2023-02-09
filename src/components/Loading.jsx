@@ -7,7 +7,7 @@ export default function Loading() {
       <img src={loadingIllustration} alt="Loading..." />
       <h1>getting our telescopes ready...</h1>
       <p>
-        if this takes more than a few seconds
+        if this takes more than a few seconds, please
         <button onClick={() => location.reload()}>reload</button>
       </p>
     </div>
