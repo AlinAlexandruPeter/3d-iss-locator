@@ -203,9 +203,9 @@ footer a {
   z-index: unset;
 }
 
-@media (max-width: 500px) {
+@media all and (max-width: 500px) {
   #root {
-    width: 95 !important
+    height: 95vh !important
   }
 
   header {
@@ -216,11 +216,11 @@ footer a {
   }
 
   header img {
-    width: 100px !important;
+    width: 100px;
   }
   
   header h1 {
-    font-size: 1.75rem !important;
+    font-size: 1.75rem;
   }
 
   header button {
