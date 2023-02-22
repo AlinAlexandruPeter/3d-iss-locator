@@ -9,7 +9,7 @@ export default function Camera(props) {
 
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-  const liveISSURL = "86YLFOog4GM";
+  const liveISSID = "4_OT4xFrjmM";
   let options = {
     height: isMobile ? "240px" : "300px",
     width: isMobile ? "350px" : "500px",
@@ -34,7 +34,7 @@ export default function Camera(props) {
         </h1>
         {loading && <VideoLoading />}
         <YouTube
-          videoId={liveISSURL}
+          videoId={liveISSID}
           opts={options}
           onReady={videoReady}
           className="no-display"
